@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interactive Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="index.js"></script>
+</head>
+<body>
+  <h1>Interactive Calculator</h1>
+  <div class="calculator">
+    <label for="num1">Number 1:</label>
+    <input type="number" id="num1"><br>
+
+    <label for="num2">Number 2:</label>
+    <input type="number" id="num2"><br>
+
+    <label for="operator">Operator:</label>
+    <select id="operator">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select><br>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <p id="result"></p>
+  </div>
+</body>
+</html>
+
